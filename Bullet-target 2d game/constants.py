@@ -1,0 +1,32 @@
+# --- Const ---
+# game parameters
+WIDTH = 800
+HEIGHT = 600
+FPS = 60
+# colors
+BG_COLOR = (18, 18, 18) # tuple
+WHITE_COLOR = (255, 255, 255) # tuple
+RED_COLOR = (255, 0 ,0) # tuple
+GREEN_COLOR = (0, 255, 60) # tuple
+ASTEROID_COLOR = (255, 255, 255) # tuple
+# asteroid
+ASTEROID_MAX_R = 20
+ASTEROID_MIN_R = 10
+ASTEROID_MAX_V = 5
+ASTEROID_MIN_V = 1
+ASTEROID_BORDER_WIDTH = 2
+ASTEROIDS_MAX = 10
+ASTEROIDS_MIN = 2
+# player
+PLAYER_R = 10
+PLAYER_MAX_V = 5
+PLAYER_ACCELERATION = 0.3
+PLAYER_FRICTION = 0.98
+# distance alert
+ALERT_DISTANCE = 75
+# bullet
+BULLET_R = 5
+BULLET_MAX_V = 10
+# Times in ms 
+PAUSE_MS = 300
+INDESTRUCTIBLE_MS = 3000
